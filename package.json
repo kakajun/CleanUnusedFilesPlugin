@@ -1,0 +1,37 @@
+{
+  "name": "useless-files-webpack-plugin",
+  "version": "0.0.1",
+  "description": "useless-files-webpack-plugin",
+  "keywords": [
+    "webpack",
+    "useless-files"
+  ],
+  "main": "useless-files-webpack-plugin.js",
+  "module": "useless-files-webpack-plugin.js",
+  "scripts": {
+    "test": "jest",
+    "testdev": "jest --watch "
+  },
+  "author": "kakajun <253495832@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kakajun/CleanUnusedFilesPlugin.git"
+  },
+  "dependencies":{
+    "consola": "^3.2.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "fs-extra": "^11.2.0",
+    "webpack":"5.91.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": "prettier --write",
+    "*.{ts,tsx}": "eslint --fix"
+  },
+  "license": "MIT",
+  "files": [
+    "es6",
+    "lib"
+  ]
+}
